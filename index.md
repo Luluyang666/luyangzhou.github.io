@@ -59,8 +59,6 @@ I also explore multimodal conversation analysis (CA), investigating how non-verb
 
 ## Publications {#publications}
 
-(Your publications go here)
-
 ## Contact Me {#contact}
 
 You can reach me at [ftb512@york.ac.uk](mailto:ftb512@york.ac.uk).
