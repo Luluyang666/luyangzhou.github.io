@@ -1,1 +1,11 @@
+title: "Luyang Zhou's Academic Website"
+description: "Showcasing my research and publications."
+baseurl: "" # Leave this blank since your site is at the root.
+url: "https://luyangzhou.github.io" # The URL of your site.
 
+# Jekyll theme settings
+theme: jekyll-theme-minimal # This is a basic, clean theme.
+
+# Optional metadata (you can include it or remove it)
+email: ftb512@york.ac.uk
+author: "Luyang Zhou"
