@@ -1,15 +1,11 @@
----
-layout: default
-title: Home
----
-
 <style>
   .hero {
-    background-image: url('/assets/images/background.jpg');
-    height: 33vh; /* 1/3 of the screen height */
+    background-image: url('/assets/images/background.jpg'); /* Now referencing the correct image name */
+    height: 33vh; /* Adjusted to cover 1/3 of the viewport */
     background-size: cover;
     background-position: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: black;
@@ -19,10 +15,12 @@ title: Home
   .hero-title {
     font-size: 3em;
     font-weight: bold;
+    margin: 0;
   }
 
   .hero-subtitle {
     font-size: 1.5em;
+    margin: 0;
   }
 
   .nav-links {
@@ -38,27 +36,26 @@ title: Home
 </style>
 
 <div class="hero">
-    <!-- Centered Name and University -->
-    <h1>Luyang Zhou</h1>
-    <h2>University of York</h2>
-
-    <!-- Navigation Bar with Links -->
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#publications">Publications</a>
-        <a href="#contact">Contact Me</a>
-    </nav>
+  <div class="hero-title">Luyang Zhou</div>
+  <div class="hero-subtitle">University of York</div>
+  <div class="nav-links">
+    <a href="#about">About Me</a>
+    <a href="#publications">Publications</a>
+    <a href="#contact">Contact Me</a>
+  </div>
 </div>
 
-<!-- Markdown Content -->
-## About Me {#about}
+# About Me
 
 My research focuses on doctor-patient interactions, with a particular interest in pediatric consultations.
 
 I also explore multimodal conversation analysis (CA), investigating how non-verbal cues, gestures, and visual elements contribute to communication in healthcare settings.
 
-## Publications {#publications}
+# Publications
 
-## Contact Me {#contact}
+
+# Contact Me
 
 You can reach me at [ftb512@york.ac.uk](mailto:ftb512@york.ac.uk).
+
+© 2024 luyangzhou.github.io. All rights reserved.
