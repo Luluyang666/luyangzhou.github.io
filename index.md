@@ -1,6 +1,6 @@
 <style>
   .hero {
-    background-image: url('/assets/images/background.jpg'); /* Now referencing the correct image name */
+    background-image: url('/assets/images/background.JPG'); /* Now referencing the correct image name */
     height: 33vh; /* Adjusted to cover 1/3 of the viewport */
     background-size: cover;
     background-position: center;
