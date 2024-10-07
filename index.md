@@ -4,45 +4,36 @@ title: Home
 ---
 
 <style>
-  /* Full-page background styling */
   .hero {
-      background-image: url('/assets/images/background.jpg'); /* Replace with your actual image name */
-      background-size: cover;
-      background-position: center;
-      height: 100vh; /* Full viewport height */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: black; /* Text color */
-      text-align: center;
-      flex-direction: column;
-  }
-  
-  .hero h1 {
-      font-size: 4em;
-      font-weight: bold;
-      margin: 0;
+    background-image: url('/assets/images/background.jpg');
+    height: 33vh; /* 1/3 of the screen height */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
   }
 
-  .hero h2 {
-      font-size: 1.5em;
-      margin-top: 10px;
+  .hero-title {
+    font-size: 3em;
+    font-weight: bold;
   }
 
-  /* Style the navigation buttons */
-  .hero nav a {
-      margin: 10px;
-      padding: 10px 20px;
-      background: rgba(255, 255, 255, 0.7); /* Transparent background for the buttons */
-      border-radius: 10px;
-      text-decoration: none;
-      font-size: 1.2em;
-      color: black;
-      transition: background-color 0.3s ease;
+  .hero-subtitle {
+    font-size: 1.5em;
   }
 
-  .hero nav a:hover {
-      background-color: #ddd;
+  .nav-links {
+    margin-top: 20px;
+  }
+
+  .nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
   }
 </style>
 
