@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Welcome to Luyang Zhou's Academic Website
+# Welcome to Luyang Zhou's Website
 
 Hello! I am **Luyang Zhou**, a PhD student at the University of York.
 
