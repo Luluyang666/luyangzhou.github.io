@@ -1,0 +1,6 @@
+title: "Luyang Zhou's Academic Website"
+email: ftb512@york.ac.uk
+description: "A personal academic website showcasing my research and publications."
+baseurl: ""
+url: "https://luyangzhou.github.io"
+theme: jekyll-theme-cayman
