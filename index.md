@@ -1,12 +1,7 @@
----
-layout: default
-title: Home
----
-
 <style>
-.hero {
-    background-image: url('/assets/images/background.JPG'); /* Now referencing the correct image */
-    height: 33vh; /* Adjusted to cover 1/3 of the viewport */
+  .hero {
+    background-image: url('/assets/images/background.JPG'); /* Image reference */
+    height: 33vh; /* Adjusting to 1/3 of the screen */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -15,43 +10,54 @@ title: Home
     align-items: center;
     color: black;
     text-align: center;
-}
+  }
 
-.hero-title {
+  .hero-title {
     font-size: 3em;
     font-weight: bold;
     margin: 0;
-}
+    display: block; /* Ensures it appears as a block element */
+  }
 
-.hero-subtitle {
+  .hero-subtitle {
     font-size: 1.5em;
     margin: 0;
-}
+    display: block; /* Ensures it appears as a block element */
+  }
+
+  .nav-links {
+    margin-top: 20px;
+  }
+
+  .nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+  }
 </style>
 
 <div class="hero">
-    <h1 class="hero-title">Luyang Zhou</h1>
-    <h2 class="hero-subtitle">University of York</h2>
-    <nav>
-        <a href="#about">About Me</a> | 
-        <a href="#publications">Publications</a> | 
-        <a href="#contact">Contact Me</a>
-    </nav>
+  <div class="hero-title">Luyang Zhou</div>
+  <div class="hero-subtitle">University of York</div>
+  <div class="nav-links">
+    <a href="#about">About Me</a>
+    <a href="#publications">Publications</a>
+    <a href="#contact">Contact Me</a>
+  </div>
 </div>
 
-<section id="about">
-## About Me
-My research focuses on doctor–patient interactions, with a particular interest in pediatric consultations.
+# About Me
 
-I also explore multimodal conversation analysis (CA), investigating how non–verbal cues, gestures, and visual elements contribute to communication in healthcare settings.
-</section>
+My research focuses on doctor-patient interactions, with a particular interest in pediatric consultations.
 
-<section id="publications">
-## Publications
+I also explore multimodal conversation analysis (CA), investigating how non-verbal cues, gestures, and visual elements contribute to communication in healthcare settings.
 
-</section>
+# Publications
 
-<section id="contact">
-## Contact Me
+
+# Contact Me
+
 You can reach me at [ftb512@york.ac.uk](mailto:ftb512@york.ac.uk).
-</section>
+
+© 2024 luyangzhou.github.io. All rights reserved.
